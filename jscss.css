@@ -1,0 +1,68 @@
+*{
+    text-align: center;
+}
+body {
+  font-family: 'Share Tech Mono', monospace;
+  padding: 20px;
+  background-image: url(bg-for-finance.png);
+  background-size: cover;
+  background-position: center;
+  
+  color: #f0e6cc;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input {  
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 250px;
+  background-color: darkgrey;
+  border: none;
+  border-radius: 3rem;
+  outline: none;
+  width: 350px;
+}
+input:hover{
+    border: 1px solid gold;
+    background-color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  background: #111;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #c9a84c;
+  color: black;
+}
+
+tr:nth-child(even) {
+  background: #1a1a1a;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    border-radius: 2rem;
+    width: 5rem;
+    height: 2rem;
+    margin-left: 3rem;
+}
+
+.information{
+    margin-top: 4rem;
+}

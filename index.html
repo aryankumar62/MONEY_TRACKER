@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="finance.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet" />
+  <title>Clock</title>
+</head>
+
+<body>
+
+  <h1>Money Tracer</h1>
+  <input type="text" id="search" placeholder="Search by name">
+  <div class="container">
+  <table border="1" id="table">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Taken</th>
+        <th>Given</th>
+        <th>Balance</th>
+        <th>Date</th>
+        <th>Mode</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+
+<div class="information">
+  <input id="name" placeholder="Name">
+  <input id="phone" placeholder="Phone">
+  <input id="taken" placeholder="Taken">
+  <input id="given" placeholder="Given">
+  <input id="mode" placeholder="Mode"> 
+</div>
+<button id="add" onclick="addData()">Add</button>
+  <script src="finance.js"></script>
+
+
+</body>
+
+</html>
